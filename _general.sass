@@ -1,0 +1,257 @@
+body 
+   background: $bc-body 
+
+.header 
+   background-color: $bc-header
+
+.container 
+   margin: 0 auto
+   max-width: 1146px
+
+.nav 
+   @include box
+
+.header-link 
+   padding: 40px
+   display: block
+   text-decoration: none
+   color: $c-txt
+   font-family: $ff
+   font-style: normal
+   font-weight: 600
+   font-size: 16px
+   line-height: 22px
+
+.header-link:hover 
+   background: $c
+   border-radius: $b-rad
+
+.main 
+   margin-top: 160px
+
+.flex-box 
+   @include cont
+   align-items: center
+
+.next 
+   font-family: $ff
+   font-style: normal
+   font-weight: 600
+   font-size: 18px
+   line-height: 160%
+   color: $c
+   text-transform: uppercase
+
+.main-heading 
+   font-family: $ff
+   font-style: normal
+   font-weight: 800
+   font-size: 55px
+   line-height: 130%
+   color: $c-txt
+   margin-top: 10px
+   width: 604px
+
+.main-dsc 
+   font-family: $ff
+   font-style: normal
+   font-weight: 600
+   font-size: 18px
+   line-height: 160%
+   color: $c-txt
+   opacity: 0.7
+   margin-top: 40px
+   width: 558px
+   margin-bottom: 50px
+
+.get 
+   background: $c
+   border-radius: $b-rad
+   margin-right: 20px
+
+.button-txt 
+   padding: $pad-but
+   font-family: $ff
+   font-weight: 600
+   @include fsbutton
+   color: $c-txt
+
+.watch 
+   background: $c
+   border-radius: $b-rad
+
+.watch-txt 
+   font-family: $ff
+   font-style: normal
+   font-weight: 600
+   @include fsbutton
+   margin-left: 10px
+   color: $c-txt
+
+.button-flex 
+   display: flex
+
+.button-txt-flex 
+   padding: $pad-but
+   font-family: $ff
+   font-style: normal
+   font-weight: 600
+   @include fsbutton
+   color: $c-txt
+   display: flex
+   align-items: center
+
+.get:hover, .watch:hover 
+   outline: 3px solid $c-txt
+
+.logos
+   @include log 
+
+.logos-flex 
+   @include cont
+
+.banner
+   @include ban 
+  
+.banner-txt 
+   max-width: 485px
+
+.banner-heading 
+   font-family: $ff
+   font-weight: 700
+   font-size: 40px
+   line-height: 52px
+   color: $c-txt
+
+.banner-dsc 
+   width: 460px
+   font-family: $ff
+   font-weight: 600
+   @include fsize
+   color: $c-txt
+   opacity: 0.7
+   margin-top: 30px
+
+.banner-button 
+   margin-top: 50px
+
+.flex-box2 
+   @include cont
+
+.item 
+   width: 362px
+   padding: 30px
+   text-align: center
+   background: $b-item
+   border-radius: $b-rad-item
+
+.adv-heading  
+   font-family: $ff
+   font-style: normal
+   font-weight: 700
+   font-size: 25px
+   line-height: 31px
+   text-align: center
+   color: $c-txt
+   opacity: 0.7
+   margin: 30px 0
+
+.adv-dsc 
+   font-family: $ff
+   font-weight: 600
+   @include fsize
+   color: $c-txt
+   opacity: 0.7
+   margin-top: 30px
+
+.down 
+   margin-top: 30px
+
+.adv-left 
+   width: 755px
+   padding: 30px
+   text-align: center
+   background: $b-item
+   border-radius: $b-rad-item
+   box-sizing: border-box
+   margin-top: 30px
+
+.advantages 
+   margin-bottom: 250px
+
+.heading-left 
+   margin: 60px 0
+
+.box__img 
+   width: 573px
+   height: 492px
+   flex: none
+   order: 1
+   flex-grow: 0
+
+.box-heading 
+   font-family: $ff
+   font-weight: 700
+   font-size: 40px
+   line-height: 52px
+   color: $c-txt
+   margin-top: 20px
+   margin-bottom: 20px
+
+.box-dsc 
+   width: 460px
+   font-family: $ff
+   font-weight: 600
+   @include fsize
+   color: $c-txt
+   opacity: 0.7
+   margin-top: 20px
+
+.box_txt 
+   margin-bottom: 230px
+
+.footer 
+   background: $bc-footer
+
+.flex-box2__list
+   max-width: 100% 
+   display: flex
+   justify-content: space-between
+
+.list 
+   width: 261px
+   margin-bottom: 27px
+
+.list-heading 
+   font-family: $ffam
+   font-weight: 500
+   font-size: 16px
+   line-height: 19px
+   color: $c-txt
+   margin-bottom: 33px
+   margin-top: 48px
+
+.list-dsc 
+   font-family: $ffam
+   font-weight: 500
+   font-size: 14px
+   line-height: 16px
+   color: $c-txt
+   margin-bottom: 25px
+
+.list-info 
+   font-family: $ffam
+   font-style: italic
+   font-weight: 100
+   font-size: 14px
+   line-height: 16px
+   color: $c-txt
+   opacity: 0.6
+   text-align: justify
+
+.list-dsc-img 
+   margin-right: 9px
+
+.icons__link 
+   margin-right: 24px
+   text-decoration: none
